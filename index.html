@@ -6,12 +6,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/estilos.css">
     <title>Document</title>
 </head>
 <body>
     
     <header>
+        
         <!-- es el encabezado de nuestro doc -->
+        <!-- enlaces relativos -->
         <nav>
             <ul>
                 <li>
@@ -29,6 +32,9 @@
                 <li>
                     <a href="./section/contacto.html">Contacto</a>
                 </li>
+                <li>
+                    <a href="#pie">Redes</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -40,13 +46,15 @@
             las que necesite por html.
         </p>
         <img src="./images/messi81024.jpg" alt=" messi levantala la copa finalissima"> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xIDLs8fN1TU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </main>
 
     <section>
         <h2>Subtitulo, se puede repetir las veces que sea necesaria si el otro h2 tiene la misma importancia de información
+           
 
         </h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis omnis accusamus voluptate, voluptas numquam sint in laborum mollitia saepe impedit eligendi. At ullam accusantium dolores tempora ipsum amet et aut!</p>
+        <p>Lorem ipsum, <a href="./section/productos.html#productos">Para mas info a productos</a> dolor sit amet consectetur adipisicing elit. Facilis omnis accusamus voluptate, voluptas numquam sint in laborum mollitia saepe impedit eligendi. At ullam accusantium dolores tempora ipsum amet et aut!</p>
 
     </section>
     <section>
@@ -57,9 +65,18 @@
 
         <h3>También lo puedo repetir, pero no puedo pasar de un h2 a un h4 sin previamente haber puesto un h3, tengo que respetar el orden.
 
-        </h3>
+    </section>
+        
+    <footer id="pie">
+        <!-- redes, dirección, teléfono, horarios y sucursales, mail, métodos de pago -->
+        <div>
+            <!-- enlaces absolutos -->
+           <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.svg" alt="logo facebook blanco y negro"></a>
+           <a href="https://twitter.com/" target="_blank"><img src="./images/twitter.svg" alt="logo twitter blanco y negro"></a>
+        </div>
+    </footer>
 
         
-    </section>
+    
 </body>
 </html>

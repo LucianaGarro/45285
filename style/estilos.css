@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: burlywood;
+}
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration:none;
+    color:aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    line-height: 50px;
+}
+
+.tercerParrafo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: justify;
+    color:rgb(111, 80, 140);
+}
+
+#segundoParrafo{
+    color:red;
+}
+
+
+
+header{
+    background-color: blueviolet;
+}
+footer{
+    background-color: blueviolet;
+}
+
+
+body{
+    background-image: url('../images/messi81024.jpg');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+}
